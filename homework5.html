@@ -5,12 +5,10 @@
     </head>
     <body>
         <h1>Dado Tea Lunch Special</h1>
-        <p>Monday through Friday
-            <br />
-            11am - 3pm
-            <br />
-            $9.90 plus tax
-        </p>
+        <p>Monday through Friday</p>
+        <p>11am - 3pm</p>
+        <p>$9.90 plus tax</p>
+        <br />
 
     <p>Includes sandwich, snack and drink.</p>
 
@@ -22,89 +20,90 @@
             <input type="text">
             <br/>
             <input type="radio" id="Here">
-            <label>Here</label>
+            <label for="Here">Here</label>
             <br/>
-            <input type="radio" id="toGo"
-            <label>To Go</label>
+            <input type="radio" id="toGo">
+            <label for="toGo">To Go</label>
         </fieldset>
-    </form>
 
-    <form>
         <fieldset>
             <legend>Sandwiches</legend>
-            <p><b>Monday</b>
-                <br />
-                <input type="radio" id="tomatoMozzarella"
-                <label>Tomato Mozzarella</label>
-                <br />
-                <input type="radio" id="chickenSalad"
-                <label>Chicken Salad</label></p>
-            <p><b>Tuesday</b>
-                <br />
-                <input type="radio" id="greekSaladWrap"
-                <label>Greek Salad Wrap</label>
-                <br/>
-                <input type="radio" id="totoWrap"
-                <label>Toto Wrap</label></p>
-            <p><b>Wednesday</b>
-                <br />
-                <input type="radio" id="redPepperHummus"
-                <label>Red Pepper Hummus</label>
-                <br/>
-                <input type="radio" id="roastedTurkey"
-                <label>Roasted Turkey</label></p>
-            <p><b>Thursday</b>
-                <br />
-                <input type="radio" id="carGinHumWrap"
-                <label>Carrot - Ginger Hummus Wrap</label>
-                <br/>
-                <input type="radio" id="eggSalad"
-                <label>Egg Salad</label></p>
-            <p><b>Friday</b>
-                <br />
-                <input type="radio" id="dadoWrap"
-                <label>Dado Wrap</label>
-                <br/>
-                <input type="radio" id="tunaSalad"
-                <label>Tuna Salad</label></p>
-            <hr />
-            <input type="checkbox" id="glutenFreeBread"
-            <label>Gluten Free Bread (75&cent; extra)</label>
-        </fieldset>
-    </form>
+            <p>
+                <b>Monday</b>
+            </p>
+            <input type="radio" id="tomatoMozzarella" name="Monday">
+            <label for="tomatoMozzarella">Tomato Mozzarella</label>
+            <br />
+            <input type="radio" id="chickenSalad" name="Monday">
+            <label for="chickenSalad">Chicken Salad</label>
+            <br />
 
-    <form>
+            <p>
+                <b>Tuesday</b>
+            </p>
+            <input type="radio" id="greekSaladWrap" name="Tuesday">
+            <label for="greekSaladWrap">Greek Salad Wrap</label>
+            <br/>
+            <input type="radio" id="totoWrap" name="Tuesday">
+            <label for="totoWrap">Toto Wrap</label>
+
+            <p>
+                <b>Wednesday</b>
+            </p>
+            <input type="radio" id="redPepperHummus" name="Wednesday">
+            <label for="redPepperHummus">Red Pepper Hummus</label>
+            <br/>
+            <input type="radio" id="roastedTurkey" name="Wednesday">
+            <label for="roastedTurkey">Roasted Turkey</label>
+
+            <p>
+                <b>Thursday</b>
+            </p>
+            <input type="radio" id="carGinHumWrap" name="Thursday">
+            <label for="carGinHumWrap">Carrot - Ginger Hummus Wrap</label>
+            <br/>
+            <input type="radio" id="eggSalad" name="Thursday">
+            <label for="eggSalad">Egg Salad</label>
+
+            <p>
+                <b>Friday</b>
+            </p>
+            <input type="radio" id="dadoWrap" name="Friday">
+            <label for="dadoWrap">Dado Wrap</label>
+            <br/>
+            <input type="radio" id="tunaSalad" name="Friday">
+            <label for="tunaSalad">Tuna Salad</label>
+
+            <hr />
+            <input type="checkbox" id="glutenFreeBread">
+            <label for="glutenFreeBread">Gluten Free Bread (75&cent; extra)</label>
+        </fieldset>
         <fieldset>
             <legend>Snacks</legend>
-            <p><b>Snacks</b>
+            <label for="snacks"><b>Snacks</b></label>
+                <input type="radio" id="apple">
+                <label for="apple">Apple</label>
                 <br/>
-                <input type="radio" id="apple"
-                <label>Apple</label>
+                <input type="radio" id="banana">
+                <label for="banana">Banana</label>
                 <br/>
-                <input type="radio" id="banana"
-                <label>Banana</label>
-                <br/>
-                <input type="radio" id="potatoChips"
-                <label>Potato Chips</label>
-            
+                <input type="radio" id="potatoChips">
+                <label for="potatoChips">Potato Chips</label>
         </fieldset>
-    </form>
-
-    <form>
         <fieldset>
             <legend>Drinks</legend>
-            <p><b>Drinks</b>
+
+            <label for="drinks"><b>Drinks</b></label>
                 <select id="drinks">
-                    <br />
                     <option>Coke</option>
                     <option>Iced Tea</option>
                     <option>Hot Black Tea - Keemun</option>
                     <option>Fanta</option>
-                    <option>Apple Juice</option></p>
+                    <option>Apple Juice</option>
             </select>
             <hr />
-            <input type="checkbox" id="largeDrink"
-            <label>Large drink (75&cent; extra)</label>
+            <input type="checkbox" id="largeDrink">
+            <label for="largeDrink">Large drink (75&cent; extra)</label>
         </fieldset>
         <button>Place order</button>
     </form>
